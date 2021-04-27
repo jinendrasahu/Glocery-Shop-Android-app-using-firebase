@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "474583491708",
+    "project_id": "jcart-12044",
+    "storage_bucket": "jcart-12044.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:474583491708:android:cd2902384634ea4a05d5f9",
+        "android_client_info": {
+          "package_name": "com.e.jcart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "474583491708-okmmuf56vei8bn33dt996m8lbjllt5v1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.e.jcart",
+            "certificate_hash": "b9eb2fda3d74dfcb693cbe5cd7d1ad8aba613e7c"
+          }
+        },
+        {
+          "client_id": "474583491708-cv0i7i4uij0i1c7kq0l157ihgh2ghn7k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBC0bKLlxEyxPMfG6v7Y0oVXZYBXSP51RI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "474583491708-cv0i7i4uij0i1c7kq0l157ihgh2ghn7k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

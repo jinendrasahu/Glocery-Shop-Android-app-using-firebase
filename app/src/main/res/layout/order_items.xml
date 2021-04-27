@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    android:background="@android:color/transparent"
+    app:cardElevation="0dp"
+    app:cardCornerRadius="10dp"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <androidx.cardview.widget.CardView
+            android:layout_width="50dp"
+            app:cardCornerRadius="10dp"
+            android:layout_margin="5dp"
+            android:layout_height="50dp">
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/_menu"
+        android:background="@drawable/list_i"
+        android:id="@+id/order_image"/>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            app:cardCornerRadius="10dp"
+            android:layout_margin="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+<TextView
+    android:layout_width="match_parent"
+    android:text="Hello"
+    android:padding="10dp"
+    android:layout_height="wrap_content"
+    android:id="@+id/order_name"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Review"
+            android:layout_margin="5dp"
+            android:background="@drawable/list_i"
+            android:id="@+id/order_review"/>
+    </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
